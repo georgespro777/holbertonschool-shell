@@ -1,2 +1,2 @@
 #!/bin/bash
-nb_rep=$(ls -l "$DIR" | grep ^d | wc -l)
+echo "$PATH" | tr ':' '\n' | grep '/' | wc -l
